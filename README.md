@@ -1,8 +1,8 @@
-# Age and Gender Estimation
+# Facial Expression Recognition
 
 ![result](notebooks/result.png "Title")
 
-This is a adaptation of MobileNet and MobileFaceNet Keras models for face emotion recognition task. The reference model was trained on refined version of [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) dataset, but can be fine-tuned or retrained on other datasets, as long as they follow the same convention.
+This is a adaptation of MobileNet and MobileFaceNet Keras models for face expression recognition task. The reference model was trained on refined version of [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) dataset, but can be fine-tuned or retrained on other datasets, as long as they follow the same convention.
 
 This repository is specifically created to train smaller models, that are suitable for running on embedded devices with constrained resources while still achieving acceptable accuracy. 
 
